@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive personal portfolio website design</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-image: url("tom-morel-ktVazL5c7FM-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">portfolio</a>
+      <!--<i class="bx bx-menu"></i>-->
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="detail">
+        <h1>Welcome to Khushboo Purohit's Portfolio</h1>
+        <p>
+          I am an aspiring computer science student with a passion for
+          technology and innovation. Explore my projects and skills below.
+        </p>
+
+        <div class="social-media">
+          <a href="https://github.com/KhushbooPurohit-21"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/khushboopurohit-21--/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+        <!-- <a href="kalyani hankare.pdf" class="btn">Download CV</a> -->
+      </div>
+      <div class="home-image">
+        <img src="pp.jpg" alt="profile-image" />
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <h2>About Me</h2>
+          <p>
+            Hello, I'm Khushboo Purohit, a diligent engineering student from
+            Ichalkaranji, Maharashtra, possesses a keen interest in computer
+            science, driven by a belief in the power of imagination over mere
+            knowledge. With a commitment to continuous learning and personal
+            growth, I am dedicated to honing the skills in various programming
+            languages including C, C++, Java, and Python. <br />Alongside my
+            academic pursuits, I am actively participating in workshops and
+            events, demonstrating my enthusiasm for exploring new horizons in
+            technology. Fluent in English, Hindi, Marathi, and Marwari, I am
+            versatile individual with a passion for photo editing and music,
+            embodying a balanced blend of creativity and technical acumen.
+          </p>
+          <br /><br />
+          <div class="educational-details">
+            <h3>Educational Details</h3>
+            <br />
+            <p>
+              <strong>B.Tech in Computer Science,</strong> - DKTE's Textile and
+              Engineering Institute (2021-2025) <br /><br />
+              <strong>Diploma in Computer Science</strong> - SANJAY GHODAWAT
+              UNIVERSITY (2018-2021) <br /><br />
+              <strong>10th Board</strong> - Vyankateshwara English School
+            </p>
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2 class="project-heading">My Projects</h2>
+      <center>
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>Responsive Landing Page</p>
+          <a href="https://github.com/KhushbooPurohit-21/PRODIGY_WD_01"
+            >View Project</a
+          >
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>Stopwatch</p>
+          <a href="https://github.com/KhushbooPurohit-21/PRODIGY_WD_02"
+            >View Project</a
+          >
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <p>Tic-Tac-Toe</p>
+          <a href="https://github.com/KhushbooPurohit-21/PRODIGY_WD_03"
+            >View Project</a
+          >
+        </div>
+      </center>
+    </section>
+    <hr />
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me via the methods below:</p>
+        <ul>
+          <li>
+            LinkedIn:
+            <a
+              href="https://www.linkedin.com/in/khushboopurohit-21--/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+        <form>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            autocomplete="off"
+          />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            required
+            autocomplete="off"
+          ></textarea>
+          <center>
+            <button type="submit">Send Message</button>
+          </center>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content text-center">
+        <center>
+          <h1>
+            Copyright © 2023 All rights reserved | This portfolio website
+            template is created by Khushboo Purohit.
+          </h1>
+        </center>
+        <br />
+        <br />
+        <br />
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
